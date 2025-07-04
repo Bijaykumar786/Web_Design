@@ -7,3 +7,54 @@
 body{
     font-family: sans-serif;
 }
+
+/* header using flexbox */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 60px;
+
+}
+/* main section using card */
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 5rem;
+
+}
+
+.sidebar{
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.content{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 50px;
+
+}
+
+/* space between : kunai content ko bichh ko lai all equal ma spade din xa */
+/* space around : yo content lai bichh ko space lai half pace gardin xa starting side and ending side ma  */
+space evenly: 

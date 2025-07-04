@@ -1,0 +1,55 @@
+body{
+    margin:0 ;
+    font-family: arial, san-serif;
+
+}
+
+.box{
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+/* Extra small devices (phones,600px and down) */
+@media only screen and (max-width: 600px){
+    .box{
+        background-color: red;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .box{
+        background-color: blue;
+        font-size: 16px;
+
+    }
+}
+
+
+/* medium devices (landscapes tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    .box{
+        background-color: black;
+        font-size: 18px;
+        color: white;
+    }
+}
+
+/* large devices (laptop/desktop,992px and up) */
+@media only screen and (min-width: 992px){
+    .box{
+        background-color: green;
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (laptop/desktop,992px and up) */
+@media only screen and (min-width: 992px){
+    .box{
+        background-color: yellow;
+        font-size: 22px;
+    }
+}
+
